@@ -8,6 +8,6 @@ class CalculateTest(SimpleTestCase):
     
     def test_add_numbers(self):
 
-        res = calculator.add(5,6)
+        res = calculator.add(5, 6)
 
-        self.assertEqual(res,11)
+        self.assertEqual(res, 11)
