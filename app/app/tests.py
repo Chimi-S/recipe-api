@@ -4,6 +4,7 @@ from django.test import SimpleTestCase
 
 from app import calculator
 
+
 class CalculateTest(SimpleTestCase):
     
     def test_add_numbers(self):
